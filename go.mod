@@ -10,6 +10,7 @@ require (
 	github.com/bytedance/go-tagexpr/v2 v2.9.11
 	github.com/casbin/casbin/v2 v2.104.0
 	github.com/gin-gonic/gin v1.10.0
+	github.com/glebarez/sqlite v1.11.0
 	github.com/go-admin-team/go-admin-core v1.5.3-rc.3.0.20250408121721-2763de5dcdf4
 	github.com/go-admin-team/go-admin-core/sdk v1.5.3-rc.3.0.20250408121721-2763de5dcdf4
 	github.com/google/uuid v1.6.0
@@ -29,7 +30,6 @@ require (
 	golang.org/x/crypto v0.37.0
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/driver/postgres v1.5.11
-	gorm.io/driver/sqlite v1.5.7
 	gorm.io/driver/sqlserver v1.5.4
 	gorm.io/gorm v1.25.12
 )
