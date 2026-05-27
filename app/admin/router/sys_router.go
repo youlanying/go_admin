@@ -40,6 +40,7 @@ func sysBaseRouter(r *gin.RouterGroup) {
 
 	if config.ApplicationConfig.Mode != "prod" {
 		r.GET("/", apis.GoAdmin)
+		r.GET("/test-page", apis.TestPage)
 	}
 	r.GET("/info", handler.Ping)
 }
